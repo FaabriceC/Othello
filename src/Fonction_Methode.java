@@ -1,6 +1,10 @@
 public class Fonction_Methode {
 
     public static void AfficherPlateau(char[][] plateau){
+        /*
+            Cette méthode permet d'afficher la méthode
+         */
+
         for(int i=0;i< plateau.length;i++) {
             for (int j = 0; j < plateau[i].length; j++) {
                 System.out.print(plateau[i][j] + "\t");
